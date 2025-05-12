@@ -85,9 +85,10 @@ body {
 .estatisticas {
     display: flex;
     justify-content: center;
-    gap: 12%;
+    gap: 4%;
     text-align: left;
     padding: 0 8%;
+    margin-left: 65px;
 }
 
 .estatistica__numero {
