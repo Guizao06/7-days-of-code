@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --vermelho-secundario: #8E2424;
+    --cinza-500: #667085;
+    --cinza-900: #101828;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2em 6em;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cabecalho__acesso {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.cabecalho__imagem {
+    margin-right: 20em;
+}
+
+.cabecalho__links {
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza-500);
+    text-decoration: none;
+}
+
+.botao__cabecalho {
+    background-color: var(--vermelho-secundario);
+    border-radius: 8px;
+    padding: 10%;
+    color: var(--cor-de-fundo);
+}
+
+.sobre__nos {
+    padding: 96px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.sobre__nos__vermelho {
+    color: var(--vermelho-secundario);
+    margin-bottom: 24px;
+}
+
+.sobre__nos__titulo {
+    color: var(--cinza-900);
+    font-size: 3rem;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.sobre__nos__descricao {
+    color: var(--cinza-500);
+    font-size: 1,25rem;
+}
+
+.informacoes {
+    margin-bottom: 96px;
+}
+
+
+.estatisticas {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    text-align: left;
+    padding: 0 8%;
+}
+
+.estatistica__numero {
+    color: var(--vermelho-secundario);
+    font-size: 3.75rem;
+    margin-bottom: 12px;
+}
+
+.estatistica__titulo {
+    color: var(--cinza-900);
+    font-size: 1.12rem;
+    margin-bottom: 12px;
+}
+
+.estatistica__descricao {
+    color: var(--cinza-500);
+    font-size: 1rem;
+}
+
+.vagas {
+    margin-top: 96px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.vagas__abertas {
+    background-color: rgb(245, 227, 227);
+    color: var(--vermelho-secundario);
+    border-radius: 8px;
+    display: inline;
+    font-size: 0.88rem;
+    padding: 2px 8px;
+}
+
+.vagas__titulo {
+    margin: 12px 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.vagas__descricao {
+    font-size: 1.20rem;
+    color: var(--cinza-500);
+    margin-bottom: 64px;
+}
+
+.vagas__imagem {
+    margin-bottom: 64px;
+}
+
+.vagas__tipo {
+    text-align: left;
+    padding: 0 30%;
+    margin-bottom: 16px;
+    font-family: 20px;
+    font-weight: 500;
+}
+
+
+.vagas__profissao {
+    color: var(--cinza-900);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vagas__detalhes {
+    justify-content: space-between;
+    margin-top: 16px;
+    border: 1px solid #EAECF0;
+    align-items: center;
+    text-align: left;
+    padding: 24px 24px 24px 28px;
+    width: 700px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.vagas__especificacoes {
+    display: inline-block;
+    margin-top: 35px;
+    color: var(--cinza-500);
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.vagas__tipo__dois {
+    text-align: left;
+    padding: 0 30%;
+    margin-bottom: 16px;
+    font-family: 20px;
+    font-weight: 500;
+    margin-top: 64px;
+}
+
+.colaboradores {
+    text-align: center;
+    background-color: #fff1f1;
+    display: inline-block;
+    padding: 64px 64px 64px 64px;
+    border: 1px solid var(--cinza-900);
+    border-radius: 12px;
+    justify-content: center;
+    margin-left: 255px;
+    width: 1180px;
+    height: 264px;
+}
+
+.texto__colaboradores {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-secundario);
+    margin-bottom: 12px;
+}
+
+.opiniao__colaboradores {
+    font-size: 36px;
+    color: var(--cinza-900);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.colaboradoras {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: var(--cinza-900);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.colaboradoras__profissao {
+    color: var(--cinza-500);
+    font-weight: 400;
+    font-size: 14px;
+}
